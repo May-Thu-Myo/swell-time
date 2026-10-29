@@ -68,6 +68,14 @@ button:hover {
     background-color: #05668d;
 }
 
+/* Activities section */
+.activities {
+    background-color: #05668d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
 /* About section */
 .about {
     max-width: 700px;

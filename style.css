@@ -1,0 +1,90 @@
+
+/* Basic page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf8fb;
+    color: #234047;
+    line-height: 1.6;
+}
+
+/* Website title */
+header {
+    background-color: #087e8b;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* Navigation buttons */
+nav {
+    background-color: #05668d;
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    background-color: #02a6a6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #028090;
+}
+
+/* Welcome section */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #b8e8ed;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    background-color: #05668d;
+}
+
+/* About section */
+.about {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #087e8b;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #05668d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
